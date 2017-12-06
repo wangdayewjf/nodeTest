@@ -1,1 +1,0 @@
-var Duplex=require("stream").Duplex,duplex=Duplex();duplex._read=function(){this._readNum=this._readNum||0,this._readNum>1?this.push(null):this.push(""+this._readNum++)},duplex._write=function(e,u,t){process.stdout.write("_write "+e.toString()+"\n"),t()},module.exports=duplex;
