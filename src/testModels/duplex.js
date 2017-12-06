@@ -19,12 +19,17 @@ duplex._write = function (buf, enc, next) {
   next()
 }
 
+
+
+
 // 0, 1
 //duplex.on('data', data => console.log('ondata', data.toString()))
 
 
 //duplex.end()
-//测试111
+//测试111  1  
 
 //学习demo https://zhuanlan.zhihu.com/p/21535776
+
+
 module.exports = duplex;

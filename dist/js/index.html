@@ -1,0 +1,53 @@
+Html Webpack Plugin:
+<pre>
+  TypeError: Cannot read property '0' of undefined
+  
+  - ExternalModuleFactoryPlugin.js:19 
+    [nodeTestT]/[_webpack@2.7.0@webpack]/lib/ExternalModuleFactoryPlugin.js:19:40
+  
+  - NormalModuleFactory.js:159 
+    [nodeTestT]/[_webpack@1.15.0@webpack]/lib/NormalModuleFactory.js:159:3
+  
+  - Tapable.js:75 NormalModuleFactory.applyPluginsAsyncWaterfall
+    [nodeTestT]/[_tapable@0.1.10@tapable]/lib/Tapable.js:75:69
+  
+  - NormalModuleFactory.js:144 NormalModuleFactory.create
+    [nodeTestT]/[_webpack@1.15.0@webpack]/lib/NormalModuleFactory.js:144:8
+  
+  - Compilation.js:356 Compilation.process [as _addModuleChain]
+    [nodeTestT]/[_webpack@1.15.0@webpack]/lib/Compilation.js:356:16
+  
+  - Compilation.js:424 Compilation.process [as addEntry]
+    [nodeTestT]/[_webpack@1.15.0@webpack]/lib/Compilation.js:424:7
+  
+  - SingleEntryPlugin.js:24 Compiler.compiler.plugin
+    [nodeTestT]/[_webpack@2.7.0@webpack]/lib/SingleEntryPlugin.js:24:16
+  
+  - Tapable.js:107 Compiler.applyPluginsParallel
+    [nodeTestT]/[_tapable@0.1.10@tapable]/lib/Tapable.js:107:14
+  
+  - Compiler.js:394 Compiler.compile
+    [nodeTestT]/[_webpack@1.15.0@webpack]/lib/Compiler.js:394:7
+  
+  - Compiler.js:203 Compiler.runAsChild
+    [nodeTestT]/[_webpack@1.15.0@webpack]/lib/Compiler.js:203:7
+  
+  - compiler.js:70 
+    [nodeTestT]/[_html-webpack-plugin@2.30.1@html-webpack-plugin]/lib/compiler.js:70:19
+  
+  - debuggability.js:303 Promise._execute
+    [nodeTestT]/[_bluebird@3.5.1@bluebird]/js/release/debuggability.js:303:9
+  
+  - promise.js:483 Promise._resolveFromExecutor
+    [nodeTestT]/[_bluebird@3.5.1@bluebird]/js/release/promise.js:483:18
+  
+  - promise.js:79 new Promise
+    [nodeTestT]/[_bluebird@3.5.1@bluebird]/js/release/promise.js:79:10
+  
+  - compiler.js:69 Object.compileTemplate
+    [nodeTestT]/[_html-webpack-plugin@2.30.1@html-webpack-plugin]/lib/compiler.js:69:10
+  
+  - index.js:47 Compiler.<anonymous>
+    [nodeTestT]/[_html-webpack-plugin@2.30.1@html-webpack-plugin]/index.js:47:40
+  
+</pre>
