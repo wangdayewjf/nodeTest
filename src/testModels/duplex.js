@@ -24,7 +24,7 @@ duplex._write = function (buf, enc, next) {
 
 
 //duplex.end()
-
+//测试
 
 //学习demo https://zhuanlan.zhihu.com/p/21535776
 module.exports = duplex;
