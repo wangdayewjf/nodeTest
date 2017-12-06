@@ -78,10 +78,10 @@ module.exports={
       {
         test:/\.js$/,
         loader:'babel-loader',
-        /*query: {
+        query: {
                //presets: ['es2015']
                presets:['es2015','stage-0','react']
-           }*/
+           }
       },
        {
         test: /\.jsx$/,

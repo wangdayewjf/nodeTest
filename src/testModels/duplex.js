@@ -21,7 +21,6 @@ duplex._write = function (buf, enc, next) {
 
 
 
-
 // 0, 1
 //duplex.on('data', data => console.log('ondata', data.toString()))
 

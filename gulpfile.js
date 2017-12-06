@@ -2,9 +2,10 @@ var webpack = require('gulp-webpack')
 var uglify = require('gulp-uglify')
 var gulp = require('gulp')
 var gutil = require('gulp-util')
-var shell = require('gulp-shell');
+//var shell = require('gulp-shell');
+var shelljs = require('shelljs');
 gulp.task('frontSide', function(callback) {
-	return shell('webpack'); 
+	return shelljs.exec('webpack');
 	//return webpack(require('./webpack.config.js'));
 /*  return gulp.src('./src/webApp/script/index.js')
       .pipe(webpack(require('./webpack.config.js')))*/
