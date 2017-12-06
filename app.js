@@ -1,6 +1,6 @@
 var through2  = require('through2');
 var concat = require('concat-stream');
-var duplex = require('./testModules/duplex');
+var duplex = require('./testModules/duplex');//这是自定义双向流demo
 var stream = through2(write,end)
 process.stdin
     .pipe(stream)
