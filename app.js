@@ -19,5 +19,5 @@ function end(done){
 
 var reverseStream=concat(function(text){
 	console.log('reverseStream');
-    
+
 })
