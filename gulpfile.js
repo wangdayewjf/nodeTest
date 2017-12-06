@@ -4,7 +4,7 @@ var gutil = require('gulp-util')
 gulp.task('uglifyjs', function () {
     gulp.src('src/**/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('dist/js'))
+        .pipe(gulp.dest('dist'))
 })
 
 gulp.task('default', function () {
