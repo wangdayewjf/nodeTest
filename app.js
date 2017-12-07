@@ -21,3 +21,5 @@ var reverseStream=concat(function(text){
 	console.log('reverseStream');
 
 })
+
+//管道的各种使用场景:http://blog.csdn.net/vieri_32/article/details/48376547
